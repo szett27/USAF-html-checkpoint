@@ -1,20 +1,16 @@
-nav{
-  align-items: float
-}
 
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #333;
 }
 
 }
 li{
-  float: left;
+  display: inline;
   font-size: : 10px;
   font-family: sans-serif;
+  color: #FFFAFA;
 }
 
 img{
@@ -29,4 +25,22 @@ img{
   height: 5%;
   text-align: left;
   font-family: sans-serif;
+  padding: 7px;
+}
+
+.selectedMovie{
+  float: left;
+}
+
+
+.login{
+  text-align: center;
+}
+
+.loginButton{
+  color: "white";
+  background-color: "blue";
+  padding: 5px;
+  margin-top: 3px;
+  align-content: left;
 }
