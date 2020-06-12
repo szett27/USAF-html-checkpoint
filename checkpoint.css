@@ -1,0 +1,32 @@
+nav{
+  align-items: float
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+}
+li{
+  float: left;
+  font-size: : 10px;
+  font-family: sans-serif;
+}
+
+img{
+  width: 23%;
+  padding: 5px;
+}
+
+.results{
+  background-color: #333;
+  color: 	#FFFF00;
+  width: max-width;
+  height: 5%;
+  text-align: left;
+  font-family: sans-serif;
+}
