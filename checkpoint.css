@@ -1,17 +1,31 @@
+nav{
+    background-color: #606060;
+    width: 100vw;
 
+}
 ul {
+  list-style-type: none;
   margin: 0;
-  padding: 0;
-  background-color: #333;
-}
+  padding: 5px;
 
 }
-li{
+
+
+li {
   display: inline;
-  font-size: : 10px;
-  font-family: sans-serif;
-  color: #FFFAFA;
+  text-decoration: none;
+  color:#FFFFFF;
+  padding-left: 3px;
 }
+
+.searchButton{
+  border-color: orange;
+  background-color: #606060;
+  color: orange;
+  text-align: right;
+}
+
+
 
 img{
   width: 23%;
@@ -33,9 +47,6 @@ img{
 }
 
 
-.login{
-  text-align: center;
-}
 
 .loginButton{
   color: "white";
@@ -43,4 +54,8 @@ img{
   padding: 5px;
   margin-top: 3px;
   align-content: left;
+}
+
+.selected{
+  color: #FFFFFF;
 }
